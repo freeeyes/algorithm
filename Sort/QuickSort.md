@@ -13,8 +13,15 @@
 >pT为数组对象，可以是结构体，如果是结构体必须重载>运算符，nStart默认是0,nEnd是数组最后一个元素的下标
 >void quick_sort(T* pT, int nStart, int nEnd);  
 ></font>    
-* Java 用例  
-><font color=#0099ff size=3>引用QuickSort.h头文件  
+
+* Java用例  
+><font color=#0099ff size=3>引用QuickSort.Java文件  
+>pT为数组对象，可以是结构体，如果是结构体必须重载>运算符，nStart默认是0,nEnd是数组最后一个元素的下标
+>public void quick_sort(T[] pT, int nStart, int nEnd)   
+></font>  
+
+*Python用例  
+><font color=#0099ff size=3>引用QuickSort.py文件  
 >pT为数组对象，可以是结构体，如果是结构体必须重载>运算符，nStart默认是0,nEnd是数组最后一个元素的下标
 >public void quick_sort(T[] pT, int nStart, int nEnd)   
 ></font>  
@@ -23,3 +30,5 @@
 >C/C++支持Linux和windows平台编译执行  
 ##相关附件下载
 >[C/C++测试用例下载](../Code/QuickSort_C++.rar)  
+>[Java测试用例下载](../Code/QuickSort_Java.rar)  
+>[Python测试用例下载](../Code/QuickSort_Python.rar)  
